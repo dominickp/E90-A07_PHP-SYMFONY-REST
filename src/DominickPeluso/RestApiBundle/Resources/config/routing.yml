@@ -5,3 +5,8 @@ dominick_peluso_rest_api_homepage:
 dominick_peluso_rest_api_customers:
     resource: "@DominickPelusoRestApiBundle/Resources/config/routing/customer.yml"
     prefix:   /customer
+
+dominick_peluso_rest_api_customers_get:
+    path:     /customers/{start}/{limit}
+    defaults: { _controller: DominickPelusoRestApiBundle:Customer:getMany }
+    methods:   [GET]

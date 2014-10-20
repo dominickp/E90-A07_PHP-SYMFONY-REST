@@ -12,3 +12,8 @@ dominick_peluso_rest_api_customer_create:
     path:     /
     defaults: { _controller: DominickPelusoRestApiBundle:Customer:create }
     methods:   [POST]
+
+dominick_peluso_rest_api_customer_delete:
+    path:     /{customer_id}
+    defaults: { _controller: DominickPelusoRestApiBundle:Customer:delete }
+    methods:   [DELETE]
