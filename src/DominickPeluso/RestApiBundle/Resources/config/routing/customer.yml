@@ -7,3 +7,8 @@ dominick_peluso_rest_api_customer_update:
     path:     /{customer_id}
     defaults: { _controller: DominickPelusoRestApiBundle:Customer:update }
     methods:   [PUT]
+
+dominick_peluso_rest_api_customer_create:
+    path:     /
+    defaults: { _controller: DominickPelusoRestApiBundle:Customer:create }
+    methods:   [POST]
