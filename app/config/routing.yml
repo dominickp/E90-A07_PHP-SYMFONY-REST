@@ -1,0 +1,4 @@
+dominick_peluso_rest_api:
+    resource: "@DominickPelusoRestApiBundle/Resources/config/routing.yml"
+    prefix:   /rest
+

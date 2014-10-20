@@ -1,0 +1,7 @@
+dominick_peluso_rest_api_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: DominickPelusoRestApiBundle:Default:index }
+
+dominick_peluso_rest_api_customers:
+    resource: "@DominickPelusoRestApiBundle/Resources/config/routing/customer.yml"
+    prefix:   /customer

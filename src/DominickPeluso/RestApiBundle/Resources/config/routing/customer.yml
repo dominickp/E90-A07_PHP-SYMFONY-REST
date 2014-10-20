@@ -1,0 +1,9 @@
+dominick_peluso_rest_api_customer_get:
+    path:     /{customer_id}
+    defaults: { _controller: DominickPelusoRestApiBundle:Customer:getSingle }
+    methods:   [GET]
+
+dominick_peluso_rest_api_customer_update:
+    path:     /{customer_id}
+    defaults: { _controller: DominickPelusoRestApiBundle:Customer:update }
+    methods:   [PUT]
