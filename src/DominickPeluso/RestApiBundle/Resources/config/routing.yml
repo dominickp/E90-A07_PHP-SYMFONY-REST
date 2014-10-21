@@ -10,3 +10,7 @@ dominick_peluso_rest_api_customers_get:
     path:     /customers/{start}/{limit}
     defaults: { _controller: DominickPelusoRestApiBundle:Customer:getMany }
     methods:   [GET]
+
+dominick_peluso_rest_test_get_customers:
+    path:     /client/get-customers
+    defaults: { _controller: DominickPelusoRestApiBundle:Customer:clientGetCustomers }

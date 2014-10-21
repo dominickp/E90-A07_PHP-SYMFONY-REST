@@ -159,4 +159,15 @@ class CustomerController extends Controller
 
         return $response;
     }
+    public function clientGetCustomersAction()
+    {
+        $r = new Request();
+        $r->create('/E90-A07_PHP-SYMFONY-REST/web/app.php/rest/client/get-customers', 'GET');
+        
+        // Send a response
+        $response = new Response();
+        $response->setContent($r->getContent());
+        $response->setStatusCode(Response::HTTP_OK);
+        $response->headers->set('Content-Type', 'application/xml');
+    }
 }
