@@ -168,7 +168,7 @@ class CustomerController extends Controller
         $response = new Response();
         $response->setContent($r->getContent());
         $response->setStatusCode(Response::HTTP_OK);
-        $response->headers->set('Content-Type', 'application/xml');
+        $response->headers->set('Content-Type', 'text/plain');
 
         return $response;
     }
