@@ -162,7 +162,7 @@ class CustomerController extends Controller
     public function clientGetCustomersAction()
     {
         $r = new Request();
-        $r->create('/E90-A07_PHP-SYMFONY-REST/web/app.php/rest/client/get-customers', 'GET');
+        $r->create('172.31.47.86/E90-A07_PHP-SYMFONY-REST/web/app.php/rest/client/get-customers', 'GET');
 
         // Send a response
         $response = new Response();

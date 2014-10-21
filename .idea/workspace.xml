@@ -100,8 +100,8 @@
       <file leaf-file-name="CustomerController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DominickPeluso/RestApiBundle/Controller/CustomerController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9298246" vertical-offset="1888" max-vertical-offset="2912">
-              <caret line="170" column="59" selection-start-line="170" selection-start-column="59" selection-end-line="170" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.8245614" vertical-offset="1888" max-vertical-offset="2912">
+              <caret line="164" column="32" selection-start-line="164" selection-start-column="32" selection-end-line="164" selection-end-column="32" />
               <folding>
                 <element signature="e#59#116#0#PHP" expanded="true" />
               </folding>
@@ -355,8 +355,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DominickPeluso/RestApiBundle/Controller/CustomerController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9298246" vertical-offset="1888" max-vertical-offset="2912">
-          <caret line="170" column="59" selection-start-line="170" selection-start-column="59" selection-end-line="170" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.8245614" vertical-offset="1888" max-vertical-offset="2912">
+          <caret line="164" column="32" selection-start-line="164" selection-start-column="32" selection-end-line="164" selection-end-column="32" />
           <folding>
             <element signature="e#59#116#0#PHP" expanded="true" />
           </folding>
